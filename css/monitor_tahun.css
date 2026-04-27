@@ -1,0 +1,330 @@
+/* HEADER ICON */
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-icons i {
+    background: #eef2f7;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* AVATAR */
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+/* TITLE */
+.title small {
+    color: #9aa4b2;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.title h2 {
+    margin: 5px 0;
+    font-size: 32px;
+}
+
+.title p {
+    color: #6b7280;
+    max-width: 1000px;
+    text-align: justify;
+}
+
+/* ACTION */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+}
+
+/* BUTTON */
+.btn-add {
+    background: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    background: #1e40af;
+}
+
+/* TABS */
+.tabs {
+    background: #e5e7eb;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.tabs button {
+    border: none;
+    padding: 8px 18px;
+    border-radius: 25px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.tabs .active-tab {
+    background: white;
+    color: #1d4ed8;
+    font-weight: 500;
+}
+
+/* FORM TAMBAH */
+.form-box {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.form-box input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.form-box button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background: #22c55e;
+    color: white;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background: #16a34a;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.3s;
+    border: 1px solid transparent;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ACTIVE CARD */
+.card.active {
+    border: 2px solid #1d4ed8;
+}
+
+/* BADGE */
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: #dbeafe;
+    color: #1d4ed8;
+}
+
+/* ICON */
+.icon-box {
+    width: 45px;
+    height: 45px;
+    background: #eef2ff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* TEXT */
+.card h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+/* PROGRESS */
+.progress {
+    height: 6px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.progress div {
+    height: 6px;
+    background: #3b82f6;
+    border-radius: 10px;
+}
+
+/* LINK */
+.card a {
+    font-size: 13px;
+    color: #1d4ed8;
+    text-decoration: none;
+}
+
+
+.btn-edit {
+    font-size: 12px;
+    color: #f59e0b;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.btn-delete {
+    font-size: 12px;
+    color: #ef4444;
+    text-decoration: none;
+}
+
+.card-action {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+/* ICON STYLE */
+.card-action a {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+/* DETAIL */
+.card-action a:nth-child(1) {
+    background: #eef2ff;
+    color: #3b82f6;
+}
+
+/* EDIT */
+.card-action a:nth-child(2) {
+    background: #fff7ed;
+    color: #f59e0b;
+}
+
+/* DELETE */
+.card-action a:nth-child(3) {
+    background: #fef2f2;
+    color: #ef4444;
+}
+
+/* HOVER EFFECT */
+.card-action a:hover {
+    transform: scale(1.1);
+}
+
+.card-action a {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+
+
+/* ===== TAHAP PAGE ADDITION ===== */
+
+/* Card lebih tinggi & clean */
+.card {
+    min-height: 180px;
+}
+
+/* Deskripsi di card (biar rapi & gak terlalu panjang) */
+.card p {
+    font-size: 13px;
+    color: #6b7280;
+    line-height: 1.5;
+}
+
+/* Progress text kecil */
+.card small {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #6b7280;
+}
+
+
+
+/* Icon box lebih soft */
+.icon-box {
+    width: 45px;
+    height: 45px;
+    background: #eef2ff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* ===== RINGKASAN PROGRES ===== */
+
+.summary-box {
+    margin-top: 40px;
+}
+
+/* Card summary horizontal */
+.summary-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+}
+
+/* Isi summary */
+.summary-item {
+    text-align: center;
+}
+
+.summary-item small {
+    display: block;
+    color: #6b7280;
+    margin-bottom: 5px;
+}
+
+.summary-item h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Button biar mirip desain */
+.btn-add {
+    background: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 13px;
+}

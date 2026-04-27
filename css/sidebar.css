@@ -1,0 +1,67 @@
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background: #f8fafc;
+    border-right: 1px solid #e5e7eb;
+    padding: 20px;
+    position: fixed;
+}
+
+.logo h5 {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.logo small {
+    color: #9ca3af;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.menu li i {
+    font-size: 18px;
+    color: #6b7280;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #374151;
+    font-size: 14px;
+}
+
+.menu li.active {
+    background: #e7f0ff;
+}
+
+.menu li.active i,
+.menu li.active a {
+    color: #2563eb;
+    font-weight: 500;
+}
+
+.sidebar-bottom {
+    position: absolute;
+    bottom: 20px;
+    font-size: 14px;
+}
+
+.sidebar-bottom a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #374151;
+}
