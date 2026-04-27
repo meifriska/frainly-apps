@@ -9,7 +9,6 @@ $url = $_SERVER['REQUEST_URI'];
     <div class="logo">
         <h5>Frainly Apps</h5>
         <small>SUPER APPS</small>
-        <p><i class="bi bi-person-circle"></i> <?= $_SESSION['user']['nama'] ?></p>
     </div>
 
 <ul class="menu">
